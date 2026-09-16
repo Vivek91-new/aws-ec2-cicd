@@ -115,9 +115,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
-    environment:
-      name: production
-
     steps:
 
       - name: Checkout code
